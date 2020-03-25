@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif; 
@@ -16,6 +11,7 @@ body{
 .second {
     font-size: 1.5rem;   
 }
+
 
 body a{
 	transition: 0.5s all;
@@ -1687,5 +1683,9 @@ h2.agileits-title {
 .view-tenth .mask {
     padding: 2em;
 } 
+}
+.third {
+    font-size: 2rem  !important;
+    
 }
 /*-- //responsive-design --*/
