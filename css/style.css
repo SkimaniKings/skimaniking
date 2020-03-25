@@ -9,7 +9,10 @@ body{
 	font-family: 'Roboto Condensed', sans-serif; 
 	background: #fff;  
 }
-.first {margin-top: 10px;}
+.first {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
 
 body a{
 	transition: 0.5s all;
@@ -37,7 +40,9 @@ body a:hover,body a:focus{
 } 
 /*-- banner --*/  
 .banner{ 
-	background:url(../images/bg.jpg)no-repeat center 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://bit.ly/2JeTGC0")
+      no-repeat center center/cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;    
